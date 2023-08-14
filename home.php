@@ -20,6 +20,7 @@ $username = isset($_SESSION['username']) ? $_SESSION['username'] : "Pengunjung";
     <title>Home</title>
 </head>
 <body>
-     <h1 class="display-4 text-center">Selamat Datang, <?= $username ?></h1>
+     <h1 class="display-4">Selamat Datang, <?= $username ?></h1>
+     <button type="button" class="btn btn-warning"><a class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="logout.php">Logout</a></button>
 </body>
 </html>
